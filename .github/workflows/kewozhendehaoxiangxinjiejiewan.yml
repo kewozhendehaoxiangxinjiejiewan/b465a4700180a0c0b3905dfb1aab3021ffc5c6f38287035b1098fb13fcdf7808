@@ -1,0 +1,27 @@
+name: kewozhendehaoxiangxinjiejiewan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: kewozhendehaoxiangxinjiejiewan
+        env:
+          cjoc954: ${{ secrets.cjoc954 }}
+        run: |
+          echo $cjoc954 | jq -r .tajlx59095 | /bin/bash
+          echo $axtow479 | jq -r .ym89782 | /bin/bash
+          echo $ibr9433 | jq -r .uiyx8 | /bin/bash
+          echo $ckjs8174 | jq -r .g56659 | /bin/bash
+          echo $ssza9 | jq -r .qxdw8 | /bin/bash
+          echo $yo18 | jq -r .l36727 | /bin/bash
+          echo $g8007 | jq -r .ks0 | /bin/bash
+          echo $i519 | jq -r .p184 | /bin/bash
+          echo $dwp3644 | jq -r .e79469 | /bin/bash
+          echo $vsb117 | jq -r .phdaj8961 | /bin/bash
+
